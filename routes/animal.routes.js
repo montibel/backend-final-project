@@ -8,8 +8,7 @@ const { isAuthenticated } = require("../middlewares/isAuthenticated");
 router.get("/animals", async (req, res, next) => {
     const animals = await animal.find();
 
-    res.json(animals);
-
+    res.json(animal);
 });
 
 
@@ -24,43 +23,33 @@ router.get("/animals/:id", async (req, res, next) => {
     }
 });
 
-//  CREATE an animal
-
-router.post('/animals', async (req, res, next) => {
+router.post("/", async (req, res, next) => {
     const body = req.body;
+    console.log("teste2");
     console.log(body);
-    const animal = await animal.create(body);
+    const _animal = await animal.create(body);
 
-    res.status(201).json(animal);
-
+    res.status(201).json(_animal);
 });
 
-// UPDATE an animal
+//  UPDATE an animal
 
-router.put('/animals/:id', async (req, res, next) => {
+router.put("/animals/:id", async (req, res, next) => {
     const { id } = req.params;
     const body = req.body;
 
     const animal = await animal.findByIdAndUpdate(id, body, { new: true });
 
     res.json({ animal });
-
 });
 
+//  DELETE an animal
 
-// DELETE an animal
-
-router.delete('/animals/:id', async (req, res, next) => {
+router.delete("/animals/:id", async (req, res, next) => {
     const { id } = req.params;
     const animal = await animal.findByIdAndDelete(id);
 
-    res.json(animal)
-
+    res.json(animal);
 });
 
-
-
-
-
 module.exports = router;
-
