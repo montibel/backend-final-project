@@ -26,7 +26,10 @@ let houses = [
     maxsizeofanimal: "Medium",
     maxnumberofanimals: 2,
     photo: "/housepictures/flat1.jpg",
+<<<<<<< HEAD
     /* photo: <img src="/housepictures/flat1.jpg"></img>, */
+=======
+>>>>>>> main
   },
   {
     name: "Great flat to visit with your dog!",
@@ -39,7 +42,10 @@ let houses = [
     maxsizeofanimal: "Small",
     maxnumberofanimals: 1,
     photo: "/housepictures/flat1.jpg",
+<<<<<<< HEAD
     /*  photo: <img src="/housepictures/flat1.jpg"></img>, */
+=======
+>>>>>>> main
   },
   {
     name: "Farm for Animals",
@@ -52,7 +58,10 @@ let houses = [
     maxsizeofanimal: "Giant",
     maxnumberofanimals: 2,
     photo: "/housepictures/flat1.jpg",
+<<<<<<< HEAD
     /* photo: <img src="/housepictures/flat1.jpg"></img>, */
+=======
+>>>>>>> main
   },
   {
     name: "Cat's room",
@@ -65,7 +74,10 @@ let houses = [
     maxsizeofanimal: "Medium",
     maxnumberofanimals: 1,
     photo: "/housepictures/flat1.jpg",
+<<<<<<< HEAD
     /*   photo: <img src="/housepictures/flat1.jpg"></img>, */
+=======
+>>>>>>> main
   },
   {
     name: "Vacation house",
@@ -78,7 +90,10 @@ let houses = [
     maxsizeofanimal: "Big",
     maxnumberofanimals: 2,
     photo: "/housepictures/flat1.jpg",
+<<<<<<< HEAD
     /*  photo: <img src="/housepictures/flat1.jpg"></img>, */
+=======
+>>>>>>> main
   },
   {
     name: "Quiet Apartment",
@@ -91,7 +106,10 @@ let houses = [
     maxsizeofanimal: "Small",
     maxnumberofanimals: 2,
     photo: "/housepictures/flat1.jpg",
+<<<<<<< HEAD
     /*  photo: <img src="/housepictures/flat1.jpg"></img>, */
+=======
+>>>>>>> main
   },
   {
     name: "Nice flat",
@@ -104,7 +122,10 @@ let houses = [
     maxsizeofanimal: "Big",
     maxnumberofanimals: 3,
     photo: "/housepictures/flat1.jpg",
+<<<<<<< HEAD
     /* photo: <img src="/housepictures/flat1.jpg"></img>, */
+=======
+>>>>>>> main
   },
   {
     name: "Farm for rent",
@@ -117,7 +138,10 @@ let houses = [
     maxsizeofanimal: "Giant",
     maxnumberofanimals: 6,
     photo: "/housepictures/flat1.jpg",
+<<<<<<< HEAD
     /*   photo: "/housepictures/flat1.jpg", */
+=======
+>>>>>>> main
   },
   // {
   //   name: "House for turtles",
